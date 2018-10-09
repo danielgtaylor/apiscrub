@@ -8,9 +8,9 @@ paths:
     get:
       description: Returns a hello world string.
   /admin:
+    x-only: admin
     get:
       description: Get the admin settings
-      x-only: admin
 ```
 
 Then running `apiscrub input.yaml -` would result in:

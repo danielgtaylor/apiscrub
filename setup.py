@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="apiscrub",
-    version="1.0.1",
+    version="1.1.0",
     author="Daniel G. Taylor",
     author_email="danielgtaylor@gmail.com",
     description="OpenAPI Scrubber",
