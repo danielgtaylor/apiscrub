@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="apiscrub",
-    version="1.1.0",
+    version="1.2.0",
     author="Daniel G. Taylor",
     author_email="danielgtaylor@gmail.com",
     description="OpenAPI Scrubber",
@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/danielgtaylor/apiscrub",
     install_requires=[
-        'ruamel.yaml>=0.15',
+        'ruamel.yaml>=0.15.89',
     ],
     packages=setuptools.find_packages(),
     entry_points={

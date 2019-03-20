@@ -37,6 +37,7 @@ def run():
 
     # Use the default (round-trip) settings.
     yaml = YAML()
+    yaml.preserve_quotes = True
 
     if args.source == '-':
         src = sys.stdin
